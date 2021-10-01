@@ -1,0 +1,39 @@
+# ELK Stack
+[elasticsearch]
+192.168.56.116 ansible_ssh_user=root ansible_ssh_pass=012590
+192.168.56.117 ansible_ssh_user=kateaggabao-tip ansible_ssh_pass=Katespade29
+
+[kibana]
+192.168.56.116 ansible_ssh_user=root ansible_ssh_pass=012590
+192.168.56.117 ansible_ssh_user=kateaggabao-tip ansible_ssh_pass=Katespade29
+
+[logstash]
+192.168.56.116 ansible_ssh_user=root ansible_ssh_pass=012590
+192.168.56.117 ansible_ssh_user=kateaggabao-tip ansible_ssh_pass=Katespade29
+
+# Nagios
+[nagios]
+192.168.56.116 ansible_ssh_user=root ansible_ssh_pass=012590
+192.168.56.117 ansible_ssh_user=kateaggabao-tip ansible_ssh_pass=Katespade29
+
+# Performance monitor
+[grafana]
+192.168.56.116 ansible_ssh_user=root ansible_ssh_pass=012590
+192.168.56.117 ansible_ssh_user=kateaggabao-tip ansible_ssh_pass=Katespade29
+
+[influxdb]
+192.168.56.116 ansible_ssh_user=root ansible_ssh_pass=012590
+192.168.56.117 ansible_ssh_user=kateaggabao-tip ansible_ssh_pass=Katespade29
+
+[prometheus]
+192.168.56.116 ansible_ssh_user=root ansible_ssh_pass=012590
+192.168.56.117 ansible_ssh_user=kateaggabao-tip ansible_ssh_pass=Katespade29
+
+# LAMP stack
+[webserver]
+192.168.56.116 ansible_ssh_user=root ansible_ssh_pass=012590
+192.168.56.117 ansible_ssh_user=kateaggabao-tip ansible_ssh_pass=Katespade29
+
+[dbserver]
+192.168.56.116 ansible_ssh_user=root ansible_ssh_pass=012590
+192.168.56.117 ansible_ssh_user=kateaggabao-tip ansible_ssh_pass=Katespade29
